@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPERATURE CONVERTER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myjs.js"></script>
+    <link rel="icon" href="download.ico">
+
+</head>
+<body>
+    <form >
+       <div class="temp">
+           <h2>Enter the temperature in one of the text boxes and press the Convert button:</h2>
+           <table align="center" >
+            <br>
+             <th align="center" colspan="3">TEMPERATURE CONVERTER <br><br><br></th>
+               <tr>
+                 <td class="tdata">FAHRENHEIT : <br><br><br></td>
+                 <td><input  type="text" id="fah" placeholder="ENTER VALUE ">   °F  <br><br><br></td>
+                 <td><input type="button" onclick="conff()" value="CONVERT"><br><br><br></td>
+               </tr>
+               <tr>
+                 <td class="tdata">CELCIUS : <br><br><br></td>
+                 <td><input type="text" id="cel" placeholder="ENTER VALUE ">  °C  <br><br><br></td>
+                 <td><input type="button" onclick="confc()"  value="CONVERT"><br><br><br></td>
+               </tr>
+               <tr>
+                 <td class="tdata">KELVIN : <br><br><br></td>
+                 <td><input type="text" id="kel" placeholder="ENTER VALUE">  K  <br><br><br></td>
+                 <td><input type="button" onclick="confk()" value="CONVERT"><br><br><br></td>
+               </tr>
+               <tr>
+                 <td align="center" colspan="3"><input type="reset" value="RESET"><br><br><br></td>
+               </tr>
+        
+            </table>
+            <br><br>
+        </div>  
+    </form>
+    
+</body>
+</html>
